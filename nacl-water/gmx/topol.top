@@ -1,0 +1,19 @@
+#include "oplsaa.ff/forcefield.itp"
+
+; Include water topol
+; include <spce.itp>
+; include <nacl.itp>
+#include "oplsaa.ff/spce.itp"
+#include "oplsaa.ff/nacl.itp"
+
+[ system ]
+; Name
+Water box
+
+[ molecules ]
+; Compound        #mols
+SOL         963
+NA               18
+CL               18
+
+
